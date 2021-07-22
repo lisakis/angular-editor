@@ -3,6 +3,7 @@
   <angular-editor-toolbar *ngIf="config.toolbarPosition === 'top'" #editorToolbar
                           [id]="id"
                           [uploadUrl]="config.uploadUrl"
+                          [upload]="config.upload"
                           [showToolbar]="config.showToolbar !== undefined ? config.showToolbar : true"
                           [fonts]="getFonts()"
                           [customClasses]="config.customClasses"
